@@ -1,8 +1,11 @@
+import Post from "./components/Post"
 
 const HomePage = () => {
   return (
     <>
-        <h1>HomePage</h1>
+      <Post />
+      <Post />
+      <Post />
     </>
   )
 }

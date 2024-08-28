@@ -5,7 +5,10 @@ import './styles.css';
 function App() {
   return (
     <>
-      <h1>GymApp</h1>
+      <div className='header-app' >
+        <h1>GymApp</h1>
+        <hr />
+      </div>
       <AppRouter />
       <Navbar />
     </>
