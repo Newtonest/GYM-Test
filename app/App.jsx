@@ -1,5 +1,5 @@
-import AppRouter from './components/router/AppRouter';
-import Navbar from './components/ui/Navbar';
+import AppRouter from './src/router/AppRouter';
+import Navbar from './src/ui/Navbar';
 import './styles.css';
 
 function App() {

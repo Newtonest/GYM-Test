@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from "react-router-dom"
-import HomePage from "./HomePage"
+import HomePage from './HomePage'
 import ExplorePage from "./ExplorePage"
 import ProfilePage from "./ProfilePage"
 
