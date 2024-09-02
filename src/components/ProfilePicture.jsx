@@ -1,4 +1,6 @@
 import '../styles/components/profile-picture.css';
+
+
 export default function ProfilePicture({src}){
     return (
         <div className="image-container">
