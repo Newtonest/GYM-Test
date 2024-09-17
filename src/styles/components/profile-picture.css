@@ -1,20 +1,27 @@
 .image-container {
+    position: relative;
+    
+    margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    border: 1px solid black;
+    height: 200px;
+    width: 20%;
+    
     padding: 10px;
+}
 
-    img {
-        border-radius: 50%;
-        height: 250px;
-        width: 250px;
-    }
+img {
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+}
 
-    button {
-        all: unset;  /*Esto anula todas las propiedades del boton(a modificar)*/ 
-    }
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    all: unset;  /*Esto anula todas las propiedades del boton(a modificar)*/ 
 }
 
 
