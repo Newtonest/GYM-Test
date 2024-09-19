@@ -1,0 +1,14 @@
+.profileheader__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .profileheader__container {
+        display: flex;
+        gap: 50%
+    }
+}
+
