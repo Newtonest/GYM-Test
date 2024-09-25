@@ -54,3 +54,36 @@ body {
     }
   }
 }
+
+.auth-form{
+  text-align: center;
+  margin-top: 35px;
+  h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .form{
+    input{
+      padding: 30px;
+      width: 60%;
+      color: white;
+      background-color: rgba(0, 0, 0, 0);
+      border: 2px solid white;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      font-size: 20px;
+    }  
+    button{
+      width: 75%;
+      color: white;
+      border: 2px solid white;
+      border-radius: 15px;
+      height: 50px;
+      font-size: 20px;
+    }
+    button:hover{
+      background-color: white;
+      color: black;
+    }
+  }
+}
