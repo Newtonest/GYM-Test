@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <div className='header-app' >
-        <h1>GymApp</h1>
+        <a href="./">
+          <h1>GymApp</h1>
+        </a>
         <hr />
       </div>
       <AppRouter />
